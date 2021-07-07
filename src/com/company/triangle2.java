@@ -5,8 +5,12 @@ import java.util.Scanner;
 public class triangle2 {
     public static void main(String []args){
         Scanner my_sc = new Scanner(System.in);
+        System.out.println("This Program will help you find the type of triangle.");
+        System.out.printf("Enter the first value:");
         int x = my_sc.nextInt();
+        System.out.printf("Enter the second value:");
         int y = my_sc.nextInt();
+        System.out.printf("Enter the third value:");
         int z = my_sc.nextInt();
 
         if(x==y&&y==z&&z==x){
