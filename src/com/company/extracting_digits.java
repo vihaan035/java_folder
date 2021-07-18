@@ -14,7 +14,6 @@ public class extracting_digits {
             System.out.println(i);
             digits++;
             i = i/10;
-            x = i+i;
         }
         System.out.println(x);
 //        System.out.println(digits);
