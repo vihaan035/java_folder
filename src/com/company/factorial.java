@@ -15,4 +15,3 @@ public class factorial {
         System.out.println("Factorial of "+number+" is: "+fact);
     }
 }
-#hello my name is vihaan
