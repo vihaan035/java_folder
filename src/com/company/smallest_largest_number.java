@@ -1,6 +1,6 @@
 package com.company;
 import java.util.Scanner;
-public class smallest_number {
+public class smallest_largest_number {
     public static void main(String []args){
         Scanner my_sc = new Scanner(System.in);
         int smallest = 0;
