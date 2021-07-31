@@ -1,15 +1,17 @@
 package com.company;
-import java.util.Scanner;
 public class star_homework {
     public static void main(String []args){
-        int size = 25;
-        int pos = 0;
-        for(int i = 0; i<size; i++){
-            if(pos % 5 == 0){
-                System.out.println();
-            }
-            System.out.print("*");
-            pos++;
+        for(int x = 4;x>0;x--){
+            for(int i = 0;i<4;i++){
+                if (i%2==0){
+                    System.out.print("0 ");
+                }
+                else{
+                    System.out.print("1 ");
+                }
+        }
+            System.out.println();
         }
     }
-}
+    }
+
